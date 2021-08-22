@@ -47,4 +47,228 @@ table {
 	border-spacing: 0;
 }
 
-/* Custom styles */
+/* Custom Styles */
+
+body {
+	background-color: #eceef1;
+	/* border: 2px solid red; */
+	min-height: 100vh;
+	font-family: system-ui;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 1.2;
+	letter-spacing: 0.2px;
+}
+
+/* Grid */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+.container {
+	/* border: 2px solid green; */
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+}
+
+.sing-in {
+	/* background-color: yellow; */
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.header {
+	/* background-color: lightblue; */
+	text-align: center;
+}
+
+.header .wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.header ul {
+	display: flex;
+	justify-content: center;
+}
+
+/* .main {
+	background-color: lightcoral;
+} */
+
+.main .wrapper {
+	height: 580px;
+	width: 390px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+}
+
+.footer {
+	/* background-color: bisque; */
+	text-align: center;
+}
+
+.footer ul {
+	display: flex;
+	justify-content: center;
+}
+
+/* Buttons */
+
+.bttn {
+	background-color: #2a77c5;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-family: inherit;
+}
+
+.bttn-sign {
+	padding: 8px 25px;
+}
+
+.bttn-create {
+	padding: 10px 100px;
+}
+
+/* Links */
+
+a {
+	color: #2a77c5;
+	text-decoration: none;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 25px;
+	padding-top: 15px;
+}
+
+/* Sign in */
+
+.sing-in {
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+.sing-in div {
+	margin-right: 10px;
+}
+
+.sing-in button {
+	margin-right: 25px;
+}
+
+/* Header */
+
+.header {
+	margin-bottom: 20px;
+}
+
+.round-logo {
+	background-color: red;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.round-logo.blue {
+	background-color: #58a7a4;
+}
+
+.round-logo.green {
+	background-color: #5ca11c;
+}
+
+/* Main section */
+
+.main .wrapper {
+	background-color: #fff;
+	border: 1px solid lightgray;
+	border-radius: 2px;
+}
+
+.main .wrapper > * {
+	padding: 0 30px;
+}
+
+.main .wrapper div { 
+	/* background-color: lightgreen; */
+	text-align: center;
+}
+
+/* .main .wrapper form {
+	background-color: lightgoldenrodyellow;
+} */
+
+.main .wrapper form label {
+	margin-bottom: 10px;
+	font-weight: 300;
+	display: block;
+}
+
+label[for="phone"] span {
+	font-weight: 200;
+}
+
+.main .wrapper form p {
+	font-size: 12px;
+	margin-bottom: 25px;
+}
+
+#phone {
+	margin-bottom: 0;
+}
+
+.main .wrapper form input {
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	font-size: 20px;
+	width: 100%;
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+.main .wrapper aside {
+	/* background-color: lightpink; */
+	font-size: 13px;
+	font-style: oblique;
+	text-align: center;
+}
+
+.main .wrapper footer {
+	/* background-color: lightskyblue; */
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.footer {
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.footer li {
+	margin-right: 10px;
+	line-height: 1.5;
+}
+
+.footer li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
